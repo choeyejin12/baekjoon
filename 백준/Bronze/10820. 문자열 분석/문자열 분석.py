@@ -1,22 +1,20 @@
-import sys
-
-
+string = []
+ 
 while True:
-    line = sys.stdin.readline().rstrip('\n')
-
-    if not line :
+    try:
+        string = input()
+    except:
         break
-
-    l , u , d , s = 0,0,0,0 #각각 소,대,숫자,공백
-
-    for i in line:
-        if i.islower():
-            l +=1
-        elif i.isupper():
-            u +=1
-        elif i.isdigit():
-            d +=1
-        elif i.isspace():
-            s +=1
-
-    print(l,u,d,s)
+ 
+    low, upp, num, space = 0, 0, 0, 0
+ 
+    for i in string:
+        if (i.islower()):
+            low += 1
+        elif(i.isupper()):
+            upp += 1
+        elif(i.isdigit()):
+            num += 1
+        elif(i == " "):
+            space += 1
+    print(low, upp, num, space)
