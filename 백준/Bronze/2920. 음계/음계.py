@@ -1,9 +1,8 @@
-n = list(map(int,input().split()))
+S = list(map(int,input().split()))
 
-if n == sorted(n) :
+if S == sorted(S):
     print("ascending")
-elif n == sorted(n,reverse= True) :
+elif S == sorted(S,reverse = True):
     print("descending")
 else:
     print("mixed")
-    
