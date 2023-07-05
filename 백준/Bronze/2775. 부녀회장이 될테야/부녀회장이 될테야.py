@@ -10,4 +10,4 @@ for _ in range(t):
     for j in range(1,num):
       apart[j] += apart[j-1]
 
-  print(apart[-1])
+  print(int(apart[-1]))
