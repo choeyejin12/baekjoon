@@ -1,4 +1,4 @@
-# [level 1] 체육복 - 42862 
+# [level 1] 체육복 - 42862 / 과거 시도했던 문제. 20분 보고 답안 봄 / 실패
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42862) 
 
