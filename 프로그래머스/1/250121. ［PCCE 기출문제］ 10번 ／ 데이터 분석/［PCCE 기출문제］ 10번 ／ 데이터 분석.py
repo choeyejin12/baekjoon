@@ -11,8 +11,7 @@ def solution(data, ext, val_ext, sort_by):
     ext_idx = data_name.index(ext) # 인덱스를 반환
     sort_idx = data_name.index(sort_by)
 
-    for i in range(len(data)) :
-        i = data[i]
+    for i in data :
         if i[ext_idx] < val_ext :
             answer.append(i)
     
