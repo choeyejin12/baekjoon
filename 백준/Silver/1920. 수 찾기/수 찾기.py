@@ -37,4 +37,3 @@ for i in m_arr :
 
 for _ in result:#출력을 맞추기 위해 for문으로 출력. 끝.
     print(_)
-
